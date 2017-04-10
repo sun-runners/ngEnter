@@ -3,13 +3,11 @@ ngEnter
 
 Trigger an expression when the enter key is pressed.
 
-Inspired from thist gist: https://gist.github.com/EpokK/5884263
-
-install
+INSTALL
 -------
 
 ```
-bower install ngEnter
+bower install ng-enter --save
 ```
 
 usage
@@ -34,4 +32,4 @@ Once enter is pressed
 $scope.modelValue === 'enter pressed' // true
 ```
 
-That simple!
+Easy!
