@@ -3,12 +3,16 @@ ngEnter
 
 Trigger an expression when the enter key is pressed.
 
+
+
 INSTALL
 -------
 
 ```
 bower install ng-enter --save
 ```
+
+
 
 USAGE
 -----
