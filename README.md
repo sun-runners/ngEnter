@@ -10,7 +10,7 @@ INSTALL
 bower install ng-enter --save
 ```
 
-usage
+USAGE
 -----
 
 Make sure you include the module in your application config
