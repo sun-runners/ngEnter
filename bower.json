@@ -1,0 +1,23 @@
+{
+  "name": "ngEnter",
+  "main": "ngEnter.js",
+  "homepage": "https://github.com/KimSunWook/ngEnter",
+  "authors": [
+    "김선욱 <sunus7@naver.com>"
+  ],
+  "description": "Specify custom behavior on enter event.",
+  "keywords": [
+    "ngEnter",
+    "ng-enter",
+    "enter",
+    "event"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
