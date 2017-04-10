@@ -1,11 +1,31 @@
 {
   "name": "ngEnter",
-  "main": "ngEnter.js",
+  "version": "0.0.2",
   "homepage": "https://github.com/KimSunWook/ngEnter",
   "authors": [
-    "김선욱 <sunus7@naver.com>"
+    "Kim Sun Wook <sunus7@naver.com>"
   ],
-  "description": "Specify custom behavior on enter event.",
+  "description": "Trigger an expression when the enter key is pressed.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KimSunWook/ngEnter.git"
+  },
+  "main": "ngEnter.js",
+  "ignore": [
+    ".jshintrc",
+    ".editorconfig",
+    ".sass-cache",
+    "npm-debug.log",
+    "sample",
+    "node_modules",
+    "bower_components",
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0"
+  },
   "keywords": [
     "ngEnter",
     "ng-enter",
@@ -13,11 +33,6 @@
     "event"
   ],
   "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "devDependencies": {
+  }
 }
