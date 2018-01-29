@@ -24,7 +24,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "angular": ">=1.2.0"
+    "angular": ">=1.2.0",
+    "granim": "^1.1.0"
   },
   "devDependencies": {
     "angular": "~1.5.8",

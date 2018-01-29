@@ -23,13 +23,13 @@ angular.module("app")
 				});
 				timeline_logo.play();
 
-				var timeout_toggle = $timeout(function () {
-					timeline_logo.played = true;
-					scope.toggle();
-				}, 5000);
+				// var timeout_toggle = $timeout(function () {
+				// 	timeline_logo.played = true;
+				// 	scope.toggle();
+				// }, 5000);
 
 				scope.toggle = function(){
-					if(timeout_toggle) $timeout.cancel(timeout_toggle);
+					// if(timeout_toggle) $timeout.cancel(timeout_toggle);
 					timeline_logo.play();
 					if(timeline_logo.played) timeline_logo.reverse();
 					timeline_logo.played = true;

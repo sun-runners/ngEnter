@@ -1,0 +1,37 @@
+{
+  "name": "granim",
+  "description": "Create fluid and interactive gradients animations with this small js library.",
+  "main": "index.js",
+  "authors": [
+    "Benjamin Blonde",
+    "Pranay Prakash <pranay.gp@gmail.com> (http://pranay.gp)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gradient",
+    "animation"
+  ],
+  "homepage": "https://sarcadass.github.io/granim.js/",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "1.1.0",
+  "_release": "1.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.0",
+    "commit": "26f740633dc48ddb345837cc5d80a3e0247e48d1"
+  },
+  "_source": "https://github.com/sarcadass/granim.js.git",
+  "_target": "^1.1.0",
+  "_originalSource": "granim",
+  "_direct": true
+}
