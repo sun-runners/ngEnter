@@ -19,7 +19,8 @@
     "**",
     "*.json",
     "webpack.config.js",
-    "*.md"
+    "*.md",
+    "CNAME"
   ],
   "license": "MIT",
   "dependencies": {
@@ -41,8 +42,7 @@
     "ng-lodash": "^0.5.0",
     "cssist": "*",
     "animejs": "^2.2.0",
-    "ng-input": "^0.0.9",
-    "ng-enter": "*"
+    "ng-input": "^0.0.9"
   },
   "resolutions": {
     "angular": "~1.5.8"
