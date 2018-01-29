@@ -3,11 +3,11 @@ ngEnter
 
 Trigger an expression when the enter key is pressed.
 
-
+<br/>
 
 DEMO
 -------
-https://kimsunwook.github.io/ngLoadingButton/index
+https://kimsunwook.github.io/ngEnter/index
 
 INSTALL
 -------
@@ -16,7 +16,7 @@ INSTALL
 bower install ng-enter --save
 ```
 
-
+<br/>
 
 USAGE
 -----
@@ -49,6 +49,6 @@ $scope.model.$enter === true // true
 $scope.model.$entered === true // true
 ```
 
-
+<br/>
 
 Easy!
