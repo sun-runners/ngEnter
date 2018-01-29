@@ -1,0 +1,23 @@
+{
+  "name": "cssist",
+  "authors": [
+    "김선욱 <sunus7@naver.com>"
+  ],
+  "description": "It automatically create css based on classes",
+  "main": "cssist.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/KimSunWook/cssist",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "docs",
+    "webpack",
+    "CNAME",
+    "webpack.config.js"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
+}

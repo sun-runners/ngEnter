@@ -1,0 +1,38 @@
+{
+  "name": "ng-input",
+  "version": "0.0.9",
+  "authors": [
+    "Cesar Augusto d. Azevedo <cesardeazeved@outlook.com>"
+  ],
+  "description": "Text Input Effects directives",
+  "main": [
+    "dist/ng-input.js",
+    "dist/ng-input.js"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.4.1",
+    "angular-sanitize": "~1.4.1",
+    "angular": "~1.4.1"
+  },
+  "homepage": "https://github.com/cesardeazevedo/ng-input",
+  "_release": "0.0.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.9",
+    "commit": "a55191b947e812c4775a8d735056d73a1a066474"
+  },
+  "_source": "https://github.com/cesardeazevedo/ng-input.git",
+  "_target": "^0.0.9",
+  "_originalSource": "ng-input",
+  "_direct": true
+}
