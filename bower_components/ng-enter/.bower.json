@@ -1,6 +1,5 @@
 {
   "name": "ng-enter",
-  "version": "1.0.3",
   "homepage": "https://github.com/KimSunWook/ngEnter",
   "main": "ngEnter.js",
   "authors": [
@@ -24,7 +23,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "angular": ">=1.2.0"
+    "angular": ">=1.2.0",
+    "granim": "^1.1.0"
   },
   "devDependencies": {
     "angular": "~1.5.8",
@@ -42,10 +42,19 @@
     "ng-lodash": "^0.5.0",
     "cssist": "*",
     "animejs": "^2.2.0",
-    "ng-input": "^0.0.9",
-    "ng-enter": "*"
+    "ng-input": "^0.0.9"
   },
   "resolutions": {
     "angular": "~1.5.8"
-  }
+  },
+  "_release": "8ae5b09fc3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8ae5b09fc35822d38c8866691ad0d53b62da2054"
+  },
+  "_source": "https://github.com/KimSunWook/ngEnter.git",
+  "_target": "*",
+  "_originalSource": "ng-enter",
+  "_direct": true
 }

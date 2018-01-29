@@ -1,0 +1,15 @@
+<div class="w-100 h-100">
+  <canvas id="granim-canvas" class="p-a w-100 h-100 t-0 l-0 z-1"></canvas>
+  <div class="p-a w-100 h-100 t-0 l-0 z-2">
+    <div class="w-60 xw-450px h-60px cen c-we z-2">
+      <input
+      class="d-b p-r f-l w-100 h-100 p-30px bo-1px bor-6px bo-we t-c tn-500ms c-we pc-we"
+      placeholder="Hit the Enter key!"
+      ng-model="message"
+      ng-enter="message = 'Thank you for pressing the enter key!'"
+      ng-enter-duration="1000"
+      ng-enter-model=""
+      ng-class="[{'rubberBand animated':$enter}]">
+    </div>
+  </div>
+</div>

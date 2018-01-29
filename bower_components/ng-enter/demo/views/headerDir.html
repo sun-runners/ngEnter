@@ -1,0 +1,56 @@
+<div class="w-100 h-90px c-we pl-15px-X1000 pr-15px-X1000 pl-90px-N1000 pr-90px-N1000 tn-500ms z-9999">
+  <!-- Logo -->
+  <button class="d-ib p-r h-100 c-we t-l">
+    <!-- Symbol -->
+    <div class="d-ib h-100">
+      <div class="d-i cen">
+        <svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="45" viewBox="0 0 46 45"><defs><path id="v7j8a" d="M126.03 39.69c-.7 3.26-2.1 5.35-2.1 5.35l.1-7.93.17-12.64 11.05 21.75zM120.79 23l-8.7 6.5a16.52 16.52 0 0 1 4.67 3.8l-7.35-2.53-12.04-4.08zm-4.23 44.05l3.38-10.88c-3.62.51-6.34-.28-6.34-.28l7.53-2.31 12.97-4.03zM90 52.27l3.72-23.37 3.45 10.18c2.64-2.57 5.33-3.55 5.33-3.55l-8.2 11zM113.15 68L91.47 56.94l11.19-.15c-1.46-3.13-1.55-5.77-1.55-5.77l4.06 5.74h.03z"/></defs><g><g transform="translate(-90 -23)"><use fill="#fff" xlink:href="#v7j8a"/></g></g></svg>
+      </div>
+    </div>
+    <!-- bar -->
+    <div class="d-ib h-100 ml-15px d-n-X1000">
+      <div id="bar" class="w-1px h-0 b-we cen"></div>
+    </div>
+    <!-- Text -->
+    <div class="d-ib h-100 d-n-X1000 o-h">
+      <div class="w-100 cen-y">
+        <div id="text" class="w-100 pl-15px">
+          <div class="w-100 f-21px ls-3px fw-900">
+            {{project}}
+          </div>
+          <div class="w-100 f-12px ls-3px mt-3px" style="font-family: 'Oleo Script', cursive;">
+            by {{writer}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </button>
+  <!-- Menu -->
+  <div class="d-ib p-r h-100 f-r f-24px lh-30px">
+    <div class="d-i h-100 mr-30px-X1000 mr-45px-N1000 f-l tn-500ms">
+      <button class="w-100 h-100 c-we o-50 o-100-H tn-500ms" ng-click="$root.$state.go('demo', null, $event);" ng-class="[{'o-100':$root.$state.current.name=='demo'}]">
+        <i class="ion-play f-l"></i>
+        <span class="f-15px ml-15px tn-500ms d-n-X500">
+          DEMO
+        </span>
+      </button>
+    </div>
+    <div class="d-i h-100 mr-30px-X1000 mr-45px-N1000 f-l tn-500ms">
+      <button class="w-100 h-100 c-we o-50 o-100-H tn-500ms" ng-click="$root.$state.go('code', null, $event);" ng-class="[{'o-100':$root.$state.current.name=='code'}]">
+        <i class="ion-code f-l"></i>
+        <span class="f-15px ml-15px tn-500ms d-n-X500">
+          CODE
+        </span>
+      </button>
+    </div>
+    <div class="d-i h-100 f-l">
+      <button class="w-100 h-100 c-we o-50 o-100-H tn-500ms" ng-click="$root.window.location.href = link;">
+        <i class="ion-social-github f-l"></i>
+        <span class="f-15px ml-15px tn-500ms d-n-X500">
+          GITHUB
+        </span>
+      </button>
+    </div>
+  </div>
+
+</div>
