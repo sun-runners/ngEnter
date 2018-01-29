@@ -5,6 +5,10 @@ Trigger an expression when the enter key is pressed.
 
 
 
+DEMO
+-------
+https://kimsunwook.github.io/ngLoadingButton/index
+
 INSTALL
 -------
 
@@ -44,5 +48,7 @@ $scope.message === 'enter pressed' // true
 $scope.model.$enter === true // true
 $scope.model.$entered === true // true
 ```
+
+
 
 Easy!
