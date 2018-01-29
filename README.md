@@ -7,7 +7,7 @@ Trigger an expression when the enter key is pressed.
 
 DEMO
 -------
-https://kimsunwook.github.io/ngEnter/index
+https://kimsunwook.github.io/ngEnter
 
 INSTALL
 -------
