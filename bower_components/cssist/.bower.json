@@ -20,14 +20,15 @@
   "dependencies": {
     "animate.css": "^3.5.2"
   },
-  "_release": "6d70b37f32",
+  "version": "1.0.4",
+  "_release": "1.0.4",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "6d70b37f326dd34afa4f9359ef22165934bcd21a"
+    "type": "version",
+    "tag": "v1.0.4",
+    "commit": "c7472dd086b04131e46e46eeb178079253eea46a"
   },
   "_source": "https://github.com/KimSunWook/cssist.git",
-  "_target": "*",
+  "_target": "^1.0.4",
   "_originalSource": "cssist",
   "_direct": true
 }

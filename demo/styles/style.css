@@ -1,11 +1,5 @@
 div, img, i, span {
   position: relative;
-}
-
-div, img, i, span {
-  float: inherit;
-}
-
-div, img, i, span {
+  float: left;
   display: block;
 }
