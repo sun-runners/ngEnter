@@ -43,9 +43,15 @@
     "cssist": "*",
     "animejs": "^2.2.0",
     "granim": "^1.1.0",
-    "reset.css": "^1.0.2"
+    "reset.css": "^1.0.2",
+    "ng-enter": "ngEnter#^0.0.1"
   },
   "resolutions": {
-    "angular": "~1.5.8"
+    "angular": "~1.5.8",
+    "ng-enter": "^1.0.5",
+    "angular-cookies": "~1.5.8",
+    "angular-resource": "~1.5.8",
+    "angular-route": "~1.5.8",
+    "angular-sanitize": "~1.5.8"
   }
 }
