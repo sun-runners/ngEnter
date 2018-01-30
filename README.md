@@ -9,11 +9,35 @@ DEMO
 -------
 https://kimsunwook.github.io/ngEnter
 
+<br/>
+
 INSTALL
 -------
 
 ```
 bower install ng-enter --save
+```
+
+<br/>
+
+Quick start
+-------
+Copy-paste the stylesheet <script> into your <body>.
+
+```
+<script src=".bower_components/ngEnter/ngEnter.js"></script>
+```
+or
+```
+<script src=".bower_components/ngEnter/ngEnter.min.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngEnter/master/ngEnter.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngEnter/master/ngEnter.min.js"></script>
 ```
 
 <br/>

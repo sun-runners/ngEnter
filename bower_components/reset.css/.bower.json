@@ -1,19 +1,19 @@
 {
-  "name": "ng-enter",
-  "version": "1.0.5",
-  "homepage": "https://github.com/KimSunWook/ngEnter",
-  "main": "ngEnter.js",
+  "name": "reset.css",
+  "version": "1.0.2",
+  "homepage": "https://github.com/KimSunWook/reset.css",
+  "main": "reset.css",
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
-  "description": "Trigger an expression when the enter key is pressed.",
+  "description": "Reset.css unifies the styles of different html tags for different browsers.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:KimSunWook/ngEnter.git"
+    "url": "git@github.com:KimSunWook/reset.css.git"
   },
   "keywords": [
-    "ngEnter",
-    "ng-enter"
+    "reset.css",
+    "resetcss"
   ],
   "ignore": [
     "**",
@@ -23,9 +23,7 @@
     "CNAME"
   ],
   "license": "MIT",
-  "dependencies": {
-    "angular": ">=1.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "angular": "~1.5.8",
     "angular-animate": "~1.5.8",
@@ -42,10 +40,19 @@
     "ng-lodash": "^0.5.0",
     "cssist": "*",
     "animejs": "^2.2.0",
-    "granim": "^1.1.0",
-    "reset.css": "^1.0.2"
+    "granim": "^1.1.0"
   },
   "resolutions": {
     "angular": "~1.5.8"
-  }
+  },
+  "_release": "1.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.2",
+    "commit": "9509548b435b6b56341c8bb12554a174fb89ef67"
+  },
+  "_source": "https://github.com/KimSunWook/reset.css.git",
+  "_target": "^1.0.2",
+  "_originalSource": "reset.css",
+  "_direct": true
 }
