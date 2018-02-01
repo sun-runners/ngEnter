@@ -25,11 +25,11 @@ Quick start
 Copy-paste the stylesheet <script> into your <body>.
 
 ```
-<script src=".bower_components/ngEnter/ngEnter.js"></script>
+<script src=".bower_components/ng-enter/ngEnter.js"></script>
 ```
 or
 ```
-<script src=".bower_components/ngEnter/ngEnter.min.js"></script>
+<script src=".bower_components/ng-enter/ngEnter.min.js"></script>
 ```
 or
 ```
