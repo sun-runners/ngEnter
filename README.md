@@ -1,7 +1,7 @@
 ngEnter
 =======
 
-Trigger an expression when the enter key is pressed.
+ngEnter is an angularjs library that triggers an expression when the enter key is pressed.
 
 <br/>
 

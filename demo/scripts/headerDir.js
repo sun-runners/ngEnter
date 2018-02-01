@@ -35,6 +35,10 @@ angular.module("app")
 					timeline_logo.played = true;
 				};
 
+				scope.goLink = function(){
+					$rootScope.window.location.href = scope.link;
+				};
+
 			},
 			replace: true,
 			scope:{

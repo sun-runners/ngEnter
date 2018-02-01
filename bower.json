@@ -6,7 +6,7 @@
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
-  "description": "Trigger an expression when the enter key is pressed.",
+  "description": "ngEnter is an angularjs library that triggers an expression when the enter key is pressed.",
   "repository": {
     "type": "git",
     "url": "git@github.com:KimSunWook/ngEnter.git"
