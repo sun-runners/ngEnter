@@ -33,11 +33,11 @@ or
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngEnter/master/ngEnter.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngEnter/v1.0.5/ngEnter.js"></script>
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngEnter/master/ngEnter.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngEnter/v1.0.5/ngEnter.min.js"></script>
 ```
 
 <br/>
