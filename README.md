@@ -25,7 +25,9 @@ Quick start
 Copy-paste the ```<script>``` into your ```<body>```.
 
 <br/>
-ngEnter.js
+
+### ngEnter.js
+
 ```
 <script src=".bower_components/ng-enter/ngEnter.js"></script>
 ```
