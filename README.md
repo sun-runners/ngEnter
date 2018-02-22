@@ -65,7 +65,7 @@ angular.module('myApp', [
   ng-enter-duration="1000" // The value of $ enter lasts true and the default value is 100 (ms).
   ng-class="[
     {'enter_classes':model.$enter}, // The value of $enter becomes true on click and turns false after duration (ms).
-    {'enter_classes':model.$entered} // The value of $entered is true when clicked and does not change.
+    {'entered_classes':model.$entered} // The value of $entered is true when clicked and does not change.
   ]">
 ```
 

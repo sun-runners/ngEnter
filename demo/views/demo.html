@@ -1,15 +1,115 @@
-<div class="w-100 h-100">
-  <canvas id="granim-canvas" class="p-a w-100 h-100 t-0 l-0 z-1"></canvas>
+<div class="w-100 h-100 f-n f-30px">
+  <ng-gradient class="p-a w-100 h-100 t-0 l-0 z-1" ng-gradient-option="{
+    opacity: [1, 1],
+    direction: 'radial',
+    states: {
+      'default-state': {
+        gradients: [
+          ['#BDBDBD', '#9E9E9E'],
+          ['#757575', '#616161'],
+          ['#616161', '#757575'],
+          ['#9E9E9E', '#BDBDBD']
+        ]
+      }
+    }
+  }"></ng-gradient>
   <div class="p-a w-100 h-100 t-0 l-0 z-2">
-    <div class="w-60 xw-450px h-60px cen c-we z-2">
-      <input
-      class="d-b p-r f-l w-100 h-100 p-30px bo-1px bor-6px bo-we t-c tn-500ms c-we pc-we"
-      placeholder="Hit the ENTER key!"
-      ng-model="message"
-      ng-enter="message = 'Thank you for pressing the ENTER key!'"
-      ng-enter-duration="1000"
-      ng-enter-model=""
-      ng-class="[{'rubberBand animated':$enter}]">
+    <div full-page class="section" options="{ scrollingSpeed: 500, controlArrows: false }" ng-init="directions = [{title:'Down', value:true}, {title:'UP', value:false}];">
+      <!-- Scale -->
+      <div class="f-l w-100 h-100 slide">
+        <div class="w-100 cen">
+          <div class="w-100 t-c f-n">
+            <div class="d-ib w-100px h-100px b-we bor-100 bs-0_0_25_we_50" ng-anime ng-anime-option="{
+              direction: 'alternate',
+              scale:2,
+              loop: true,
+              duration:1500,
+              easing: 'easeInOutQuad'
+            }"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Translate -->
+      <div class="f-l w-100 h-100 slide">
+        <div class="w-100 cen">
+          <div class="w-100 t-c f-n">
+            <div class="d-ib w-100px h-100px b-we bor-9px bs-0_0_25_we_50" ng-anime ng-anime-option="{
+              translateX: [ -100, 100],
+              direction: 'alternate',
+              rotate: '0.5turn',
+              loop: true,
+              duration:3000,
+              easing: 'easeInOutQuad'}" ng-anime-instance="instance">
+            </div>
+          </div>
+          <div class="w-100 t-c" style="font-family: 'Noto Sans', sans-serif;">
+            <div class="d-ib f-n">
+              <div class="f-l">
+                <button class="d-ib c-we p-3px o-50 o-100-H" ng-click="instance.play();">
+                  <i class="w-100 ion-play"></i>
+                  <span class="w-100 f-18px">Play</span>
+                </button>
+                <button class="d-ib c-we p-3px o-50 o-100-H" ng-click="instance.pause();">
+                  <i class="w-100 ion-pause"></i>
+                  <span class="w-100 f-18px">Stop</span>
+                </button>
+                <button class="d-ib c-we p-3px o-50 o-100-H" ng-click="instance.restart();">
+                  <i class="w-100 ion-refresh"></i>
+                  <span class="w-100 f-18px">Restart</span>
+                </button>
+                <button class="d-ib c-we p-3px o-50 o-100-H" ng-click="instance.reverse();">
+                  <i class="w-100 ion-arrow-swap"></i>
+                  <span class="w-100 f-18px">Reverse</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BackgroundColor -->
+      <div class="f-l w-100 h-100 slide">
+        <div class="w-100 cen">
+          <div class="w-100 t-c f-n">
+            <div class="d-ib w-150px h-150px bor-100 bs-0_0_25_we_50" ng-anime ng-anime-option="{
+              direction: 'alternate',
+              backgroundColor: ['#F44336', '#FF9800', '#FFEB3B', '#8BC34A', '#00BCD4', '#2196F3', '#673AB7'],
+              loop: true,
+              duration:15000,
+              easing: 'easeInOutQuad'
+            }"></div>
+          </div>
+        </div>
+      </div>
+      <!-- order: x_index, -->
+
+      <!-- Timeline -->
+      <div class="f-l w-100 h-100 slide">
+        <div class="w-100 cen">
+          <div class="w-100 t-c f-n" ng-init="array = [1,2,3]; timeline.length = array.length;">
+            <div class="d-ib w-50px h-50px b-we bor-100 bs-0_0_25_we_50 m-15px" ng-anime="timeline" ng-anime-option="{
+              order: x_index,
+              translateY: [0, -50, 0],
+              loop: true,
+              duration:1000,
+              easing: 'easeInOutQuad'
+            }" ng-repeat="(x_index, x) in array"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <button class="p-a w-20 h-60px cen-y c-we l-0 z-2" ng-click="movePrev();">
+        <div class="p-r w-100 h-100">
+          <i class="ion-arrow-left-b f-30px cen"></i>
+        </div>
+      </button>
+      <button class="p-a w-20 h-60px cen-y c-we r-0 z-2" ng-click="moveNext();">
+        <div class="p-r w-100 h-100">
+          <i class="ion-arrow-right-b f-30px cen"></i>
+        </div>
+      </button>
     </div>
   </div>
 </div>
