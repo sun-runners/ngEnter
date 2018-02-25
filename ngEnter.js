@@ -1,6 +1,6 @@
 (function(angular) {
   angular.module('ngEnter', ['ng'])
-  .directive("ngEnter", function ($rootScope, $timeout) {
+  .directive("ngEnter", ['$rootScope', '$timeout' function ($rootScope, $timeout) {
 		return {
       link: function (scope, element, attrs) {
 
@@ -43,9 +43,10 @@
 
                // Set $enter false after duration
                var duration = Number(attrs.ngEnterDuration);
-               if(!(duration>=0)) duration = 100;
+               if(!(duration>=0)) duration = 700;
                timeout_enter = $timeout(function(){
                  model.$enter = false;
+                 scope.$eval(attrs.ngEnterAfter);
                }, duration);
              }
              event.preventDefault();
@@ -56,4 +57,4 @@
 			restrict:"EA"
 		};
 	});
-})(angular);
+}])(angular);

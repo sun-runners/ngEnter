@@ -287,7 +287,7 @@ MyController.prototype.$onInit = function() {
 
 
 <a name="1.1.1"></a>
-## [Angular Material 1.1.1](https://github.com/angular/material/compare/v1.1.0...v1.1.1) (2016-09-01)
+## [Angular Material 1.1.1](https://github.com/angular/material/compare/v1.1.0...v1.1.2) (2016-09-01)
 
 We continue to maintain our momentum with Angular Material. Today we published a patch release for Angular Material; a patch that contains more than 60 improvements and fixes.
 
@@ -364,7 +364,7 @@ We continue to maintain our momentum with Angular Material. Today we published a
 
 #### Contributors
 
-Thanks to the great contributors who helped with this v1.1.1 patch release:
+Thanks to the great contributors who helped with this v1.1.2 patch release:
 
 [<img alt="akaij" src="https://avatars.githubusercontent.com/u/5215129?v=3&s=117" width="117">](https://github.com/akaij) |[<img alt="bradrich" src="https://avatars.githubusercontent.com/u/3429878?v=3&s=117" width="117">](https://github.com/bradrich) |[<img alt="clshortfuse" src="https://avatars.githubusercontent.com/u/9271155?v=3&s=117" width="117">](https://github.com/clshortfuse) |[<img alt="crisbeto" src="https://avatars.githubusercontent.com/u/4450522?v=3&s=117" width="117">](https://github.com/crisbeto) |[<img alt="DevVersion" src="https://avatars.githubusercontent.com/u/4987015?v=3&s=117" width="117">](https://github.com/DevVersion) |[<img alt="EladBezalel" src="https://avatars.githubusercontent.com/u/6004537?v=3&s=117" width="117">](https://github.com/EladBezalel) |
 :---: |:---: |:---: |:---: |:---: |:---: |

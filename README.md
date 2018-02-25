@@ -33,15 +33,7 @@ Copy-paste the ```<script>``` into your ```<body>```.
 ```
 or
 ```
-<script src=".bower_components/ng-enter/ngEnter.min.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngEnter/v1.1.0/ngEnter.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngEnter/v1.1.0/ngEnter.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngEnter/v1.1.2/ngEnter.js"></script>
 ```
 
 <br/>
@@ -60,12 +52,26 @@ angular.module('myApp', [
 
 ```
 <input
-  ng-enter="message = 'enter pressed'" // Invoked when you press the Enter key
-  ng-enter-model="model" // If you do not put object, $enter and $entered values ​​are stored in scope.
-  ng-enter-duration="1000" // The value of $ enter lasts true and the default value is 100 (ms).
+  <!-- Invoked when you press the ENTER key -->
+  ng-enter="message = 'ENTER is pressed.'"
+
+  <!-- Called after duration (ms) after pressing the ENTER key. -->
+  ng-enter-after="message = 'ENTER was pressed 1 second ago.'"
+
+  <!-- If you do not put object, $enter and $entered values ​​are stored in scope. -->
+  ng-enter-model="model"
+
+  <!-- The value of $enter lasts true and the default value is 700 (ms). -->
+  ng-enter-duration="1000"
+
   ng-class="[
-    {'enter_classes':model.$enter}, // The value of $enter becomes true on click and turns false after duration (ms).
-    {'entered_classes':model.$entered} // The value of $entered is true when clicked and does not change.
+
+    <!-- The value of $enter becomes true on click and turns false after duration (ms). -->
+    {'enter_classes':model.$enter},
+
+    <!-- The value of $entered is true when clicked and does not change. -->
+    {'entered_classes':model.$entered}
+
   ]">
 ```
 
