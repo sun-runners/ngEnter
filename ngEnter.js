@@ -3,13 +3,30 @@
   .directive("ngEnter", function ($rootScope, $timeout) {
 		return {
       link: function (scope, element, attrs) {
+
+        var getModel = function(){
+          // Set model
+          var model;
+          if(scope.$eval(attrs.ngEnterModel)){
+            model = scope.$eval(attrs.ngEnterModel);
+          }
+          else{
+            if(attrs.ngEnterModel){
+              scope[attrs.ngEnterModel] = {};
+              model = scope[attrs.ngEnterModel];
+            }
+            else{
+              model = scope;
+            }
+          }
+          return model;
+        };
+
         // Listen to keypress event
          var timeout_enter;
          angular.element(element).bind("keydown keypress", function(event) {
            // Set model
-           var model
-           if(scope.$eval(attrs.ngEnterModel)) model = scope.$eval(attrs.ngEnterModel);
-           else model = scope;
+           var model = getModel();
 
            // When Enter key is pressed
            if (event.which === 13) {
